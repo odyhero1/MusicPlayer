@@ -15,6 +15,8 @@ class MainVC: UIViewController, UITableViewDelegate , UITableViewDataSource{
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        //songs
         let p1 = PartyRock (imageURL: "http://www.warnerbrosrecords.com/sites/g/files/g2000003386/f/201509/TryMe-FINAL.jpg", videoUrl: "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/xoWEQLpBoE0\" frameborder=\"0\" allowfullscreen></iframe>", videoTitle: "Swalla")
         let p2 = PartyRock (imageURL: "https://i.ytimg.com/vi/rdXZ0kkVk4k/maxresdefault.jpg", videoUrl: "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/13CdKgFiiXQ?rel=\0\" frameborder=\"0\" allowfullscreen></iframe>", videoTitle: "Strip That Down")
         let p3 = PartyRock (imageURL: "https://i.ytimg.com/vi/ewLzsi1jVJU/maxresdefault.jpg", videoUrl: "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/ewLzsi1jVJU?rel=\"0\" frameborder=\"0\" allowfullscreen></iframe>", videoTitle: "Sexy Body Pitbull")
@@ -54,8 +56,10 @@ class MainVC: UIViewController, UITableViewDelegate , UITableViewDataSource{
             if let party = sender as? PartyRock {
                 destination.partyRock = party
         }
+
     }
 
 }
+    
 
 }

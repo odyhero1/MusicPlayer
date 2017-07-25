@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 48;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F62018101F27DC9D00F8D8B4 /* uWantSumFuk.swift in Sources */ = {isa = PBXBuildFile; fileRef = F620180F1F27DC9D00F8D8B4 /* uWantSumFuk.swift */; };
 		F6583FD41F24E6EA00D44C6C /* still time.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F6583FD31F24E6EA00D44C6C /* still time.ttf */; };
 		F672EA021F2513C400EBB269 /* PartyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F672EA011F2513C400EBB269 /* PartyCell.swift */; };
 		F672EA041F25163800EBB269 /* PartyRock.swift in Sources */ = {isa = PBXBuildFile; fileRef = F672EA031F25163800EBB269 /* PartyRock.swift */; };
@@ -15,9 +16,12 @@
 		F6ACC6DA1F24D1EC005F748E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6ACC6D81F24D1EC005F748E /* Main.storyboard */; };
 		F6ACC6DC1F24D1EC005F748E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6ACC6DB1F24D1EC005F748E /* Assets.xcassets */; };
 		F6E22B441F24EA5600F138D5 /* VideoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E22B431F24EA5600F138D5 /* VideoVC.swift */; };
+		F6F07AB31F27D545008F7D9C /* LemmeSmash.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F6F07AB21F27D545008F7D9C /* LemmeSmash.mp3 */; };
+		F6F07AB51F27D761008F7D9C /* Confirm.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F07AB41F27D761008F7D9C /* Confirm.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F620180F1F27DC9D00F8D8B4 /* uWantSumFuk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uWantSumFuk.swift; sourceTree = "<group>"; };
 		F6583FD31F24E6EA00D44C6C /* still time.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "still time.ttf"; path = "../../../../Downloads/still_time/still time.ttf"; sourceTree = "<group>"; };
 		F672EA011F2513C400EBB269 /* PartyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartyCell.swift; sourceTree = "<group>"; };
 		F672EA031F25163800EBB269 /* PartyRock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartyRock.swift; sourceTree = "<group>"; };
@@ -28,6 +32,8 @@
 		F6ACC6DB1F24D1EC005F748E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F6ACC6E01F24D1EC005F748E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F6E22B431F24EA5600F138D5 /* VideoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoVC.swift; sourceTree = "<group>"; };
+		F6F07AB21F27D545008F7D9C /* LemmeSmash.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = LemmeSmash.mp3; sourceTree = "<group>"; };
+		F6F07AB41F27D761008F7D9C /* Confirm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Confirm.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +89,11 @@
 		F6ACC6E61F24D5EC005F748E /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				F6F07AB21F27D545008F7D9C /* LemmeSmash.mp3 */,
+				F6F07AB41F27D761008F7D9C /* Confirm.swift */,
 				F6ACC6D61F24D1EC005F748E /* MainVC.swift */,
 				F6E22B431F24EA5600F138D5 /* VideoVC.swift */,
+				F620180F1F27DC9D00F8D8B4 /* uWantSumFuk.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -137,11 +146,12 @@
 				TargetAttributes = {
 					F6ACC6D01F24D1EC005F748E = {
 						CreatedOnToolsVersion = 9.0;
+						DevelopmentTeam = SDZNBKC45C;
 					};
 				};
 			};
 			buildConfigurationList = F6ACC6CC1F24D1EC005F748E /* Build configuration list for PBXProject "PitbullApp" */;
-			compatibilityVersion = "Xcode 8.0";
+			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -163,6 +173,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6F07AB31F27D545008F7D9C /* LemmeSmash.mp3 in Resources */,
 				F6ACC6DC1F24D1EC005F748E /* Assets.xcassets in Resources */,
 				F6583FD41F24E6EA00D44C6C /* still time.ttf in Resources */,
 				F6ACC6DA1F24D1EC005F748E /* Main.storyboard in Resources */,
@@ -178,6 +189,8 @@
 			files = (
 				F6E22B441F24EA5600F138D5 /* VideoVC.swift in Sources */,
 				F672EA041F25163800EBB269 /* PartyRock.swift in Sources */,
+				F6F07AB51F27D761008F7D9C /* Confirm.swift in Sources */,
+				F62018101F27DC9D00F8D8B4 /* uWantSumFuk.swift in Sources */,
 				F6ACC6D71F24D1EC005F748E /* MainVC.swift in Sources */,
 				F672EA021F2513C400EBB269 /* PartyCell.swift in Sources */,
 				F6ACC6D51F24D1EC005F748E /* AppDelegate.swift in Sources */,
@@ -307,6 +320,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = SDZNBKC45C;
 				INFOPLIST_FILE = PitbullApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.devslopes.PitbullApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -321,6 +335,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = SDZNBKC45C;
 				INFOPLIST_FILE = PitbullApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.devslopes.PitbullApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
