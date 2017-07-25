@@ -23,16 +23,17 @@ class PartyCell: UITableViewCell {
          videoTitle.text = partyRock.videoTitle
         let url = URL(string: partyRock.imageURL)!
         DispatchQueue.global().async {
+            
          do {
+            
              let data = try Data(contentsOf: url)
-                 DispatchQueue.global().sync {
-                    self.videoPreviewImage.image =
-                         UIImage(data: data)
+            DispatchQueue.global().sync {
+                self.videoPreviewImage.image = UIImage(data: data)
+            }
 
-                }
 
             }catch {
-
+// handle
 
     }
 
